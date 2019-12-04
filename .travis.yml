@@ -1,13 +1,13 @@
 arch: arm64
-dist: xenial
+#dist: xenial
 language: generic
 
 # go:
 # - 1.12.x
 # - 1.13.x
 
-# jobs:
-#   include:
+jobs:
+  include:
 #   - name: dest-and-lang-default
 #   - dist: xenial
 #     name: xenial-lang-default
@@ -37,10 +37,12 @@ language: generic
 #   - dist: bionic
 #     name: bionic-slim
 #     language: slim
-#    - dist: bionic
-#      name: bionic-generic
-#      language: generic
-
+   - dist: xenial
+     name: xenial-generic
+     language: generic
+   - dist: bionic
+     name: bionic-generic
+     language: generic
 # rvm:
 # - 2.6.4
 # - 2.6.3
