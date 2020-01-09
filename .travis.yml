@@ -5,7 +5,9 @@ language: generic
 # go:
 # - 1.12.x
 # - 1.13.x
-
+services:
+  - postgresql
+  
 jobs:
   include:
   - name: dest-and-lang-default
@@ -62,6 +64,7 @@ install: skip
 script:
 # DNS
 - echo "==> DNS"
+- sudo apt install dnsutils
 - cat /etc/resolv.conf
 - nslookup github.com
 - nslookup google.com
