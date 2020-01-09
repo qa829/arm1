@@ -1,6 +1,6 @@
 arch: arm64
 dist: bionic
-language: generic
+language: ruby
 
 # go:
 # - 1.12.x
