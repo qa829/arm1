@@ -1,5 +1,5 @@
 arch: arm64
-#dist: xenial
+dist: bionic
 language: generic
 
 # go:
@@ -60,6 +60,13 @@ jobs:
 install: skip
 
 script:
+# DNS
+- echo "==> DNS"
+- cat /etc/resolv.conf
+- nslookup github.com
+- nslookup google.com
+- ping google.com -c 4
+
 # Environment information
 - echo "==> Environment information"
 - uname -a
