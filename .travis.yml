@@ -97,4 +97,4 @@ script:
 # # - echo "==> Ruby"
 # # - ruby -v
 # # - gem i bundler
-- sleep 600
+# - sleep 600
