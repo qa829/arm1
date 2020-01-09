@@ -21,30 +21,30 @@ jobs:
   - dist: bionic
     name: bionic-ruby
     language: ruby
-  - dist: xenial
-    name: xenial-c
-    language: c
-  - dist: bionic
-    name: bionic-c
-    language: c
-  - dist: xenial
-    name: xenial-minimal
-    language: minimal
-  - dist: bionic
-    name: bionic-minimal
-    language: minimal
-  - dist: xenial
-    name: xenial-slim
-    language: slim
-  - dist: bionic
-    name: bionic-slim
-    language: slim
-  - dist: xenial
-    name: xenial-generic
-    language: generic
-  - dist: bionic
-    name: bionic-generic
-    language: generic
+#   - dist: xenial
+#     name: xenial-c
+#     language: c
+#   - dist: bionic
+#     name: bionic-c
+#     language: c
+#   - dist: xenial
+#     name: xenial-minimal
+#     language: minimal
+#   - dist: bionic
+#     name: bionic-minimal
+#     language: minimal
+#   - dist: xenial
+#     name: xenial-slim
+#     language: slim
+#   - dist: bionic
+#     name: bionic-slim
+#     language: slim
+#   - dist: xenial
+#     name: xenial-generic
+#     language: generic
+#   - dist: bionic
+#     name: bionic-generic
+#     language: generic
 # rvm:
 # - 2.6.4
 # - 2.6.3
@@ -97,4 +97,4 @@ script:
 # # - echo "==> Ruby"
 # # - ruby -v
 # # - gem i bundler
-# # #- sleep 120
+- sleep 600
