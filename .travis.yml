@@ -11,6 +11,9 @@ php:
 # - 1.13.x
 services:
   - postgresql
+
+addons:
+  postgresql: '10'
   
 jobs:
   include:
@@ -101,4 +104,4 @@ script:
 - echo "==> Ruby"
 - ruby -v
 - gem i bundler
-- sleep 600
+# - sleep 600
