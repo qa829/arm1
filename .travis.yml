@@ -96,8 +96,8 @@ script:
 - docker info
 - docker run hello-world
 
-# # # ruby
-# # - echo "==> Ruby"
-# # - ruby -v
-# # - gem i bundler
+# ruby
+- echo "==> Ruby"
+- ruby -v
+- gem i bundler
 - sleep 600
