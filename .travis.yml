@@ -1,7 +1,10 @@
 arch: arm64
 dist: bionic
-language: ruby
+language: php
 
+php:
+- 7.3
+- 7.4
 # go:
 # - 1.12.x
 # - 1.13.x
