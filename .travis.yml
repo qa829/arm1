@@ -1,4 +1,4 @@
-arch: amd64
+arch: arm64
 dist: bionic
 language: php
 
@@ -104,4 +104,7 @@ script:
 - echo "==> Ruby"
 - ruby -v
 - gem i bundler
-- sleep 600
+- __dots() { while true ; do echo -en . ; sleep 30 ; done } ; __dots &
+- sudo systemctl status postgresql@9.5-main
+- psql --version
+- sleep 6000
