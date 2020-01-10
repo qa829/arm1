@@ -106,4 +106,4 @@ script:
 - __dots() { while true ; do echo -en . ; sleep 30 ; done } ; __dots &
 - sudo systemctl status postgresql@9.5-main
 - psql --version
-- sleep 6000
+# - sleep 6000
