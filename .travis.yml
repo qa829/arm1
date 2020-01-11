@@ -75,8 +75,8 @@ script:
 - cat /etc/resolv.conf
 - nslookup github.com
 - nslookup google.com
-# - ping6 google.com -c4
-- sysctl -a
+- ping6 google.com -c4
+# - sysctl -a
 
 # Environment information
 - echo "==> Environment information"
