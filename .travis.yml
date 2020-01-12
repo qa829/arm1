@@ -106,7 +106,7 @@ script:
 - echo "==> Ruby"
 - ruby -v
 - gem i bundler
-# - __dots() { while true ; do echo -en . ; sleep 30 ; done } ; __dots &
+- __dots() { while true ; do echo -en . ; sleep 30 ; done } ; __dots &
 - psql --version
-# - sleep 6000
+- sleep 6000
 # 
