@@ -9,8 +9,8 @@ php:
 # go:
 # - 1.12.x
 # - 1.13.x
-services:
-  - postgresql
+# services:
+#   - postgresql
   
 # addons:
 #   postgresql: '10'
@@ -107,6 +107,6 @@ script:
 - ruby -v
 - gem i bundler
 # - __dots() { while true ; do echo -en . ; sleep 30 ; done } ; __dots &
-- psql --version
+# - psql --version
 # - sleep 6000
 # 
