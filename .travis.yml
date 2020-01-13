@@ -75,6 +75,7 @@ script:
 - cat /etc/resolv.conf
 - nslookup github.com
 - nslookup google.com
+- nslookup github.com | grep 192.168.0.1
 - ping google.com -c4
 # - ping6 google.com -c4
 # - sysctl -a
