@@ -1,6 +1,6 @@
 arch: 
-- arm64
-- ppc64le
+# - arm64
+# - ppc64le
 - s390x
 dist: bionic
 language: ruby
